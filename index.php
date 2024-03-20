@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+<link rel="stylesheet" href="loginPage/style.css" />
+    <script src="loginPage/script.js"></script>
     <title>ENSAH E-Services</title>
   </head>
   <body>

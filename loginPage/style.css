@@ -1,6 +1,6 @@
 :root {
   --curved_color: #4349c7;
-  --back_color: rgb(97, 143, 235);
+  --back_color: rgb(108, 157, 255);
 }
 
 * {
@@ -98,11 +98,9 @@ main {
 }
 
 .form-group input:focus ~ .email,
-.form-group input:valid ~ .email{
+.form-group input:valid ~ .email {
   opacity: 0.7;
 }
-
-
 
 .form-group input[type="text"],
 .form-group input[type="password"] {
@@ -163,13 +161,15 @@ main {
 }
 .pwdv {
   display: none;
+  opacity: 0.7;
 }
 .pwdv:hover,
 .pwd:hover {
   opacity: 0.7;
 }
-.grad-cap:hover{
+.grad-cap:hover {
   transform: translateY(-65%) translateX(-15%) rotate(-15deg);
+  padding: 5px;
 }
 
 #showPwd {
@@ -182,8 +182,6 @@ main {
   top: 50%;
   right: 12%;
 }
-
-
 
 .forgot {
   font-size: small;
